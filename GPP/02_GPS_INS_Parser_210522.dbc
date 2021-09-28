@@ -1,0 +1,226 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1024 RTK_UTC: 8 Vector__XXX
+ SG_ RTK_UTC_Sec : 16|13@1+ (0.01,0) [0|60] "" Vector__XXX
+ SG_ RTK_UTC_Min : 8|6@1+ (1,0) [0|59] "" Vector__XXX
+ SG_ RTK_UTC_Hour : 0|5@1+ (1,0) [0|23] "" Vector__XXX
+ SG_ RTK_Mode : 5|3@1+ (1,0) [0|5] "" Vector__XXX
+ SG_ RTK_HDOP : 48|7@1+ (1,0) [0|10] "" Vector__XXX
+ SG_ RTK_DGPS_Age : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RTK_Chk_Missing_CNT : 42|6@1+ (1,0) [0|63] "" Vector__XXX
+ SG_ RTK_UTC_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RTK_UTC_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1025 RTK_Latitude: 8 Vector__XXX
+ SG_ RTK_Lat_Int : 0|10@1+ (1,0) [0|999] "" Vector__XXX
+ SG_ RTK_Lat_Dec : 16|27@1+ (1,0) [0|100000000] "" Vector__XXX
+ SG_ RTK_Lat_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RTK_Lat_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1026 RTK_Longitude: 8 Vector__XXX
+ SG_ RTK_Long_Int : 0|10@1+ (1,0) [0|999] "" Vector__XXX
+ SG_ RTK_Long_Dec : 16|27@1+ (1,0) [0|100000000] "" Vector__XXX
+ SG_ RTK_Long_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RTK_Long_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1027 RTK_Altitude: 8 Vector__XXX
+ SG_ RTK_Alt_Int : 0|11@1- (1,0) [-999|999] "" Vector__XXX
+ SG_ RTK_Alt_Dec : 16|10@1+ (1,0) [0|999] "" Vector__XXX
+ SG_ RTK_Alt_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RTK_Alt_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1028 RTK_Heading: 8 Vector__XXX
+ SG_ RTK_Heading : 0|19@1+ (0.001,0) [0|360] "" Vector__XXX
+ SG_ RTK_Head_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RTK_Head_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1029 RTK_Degree: 8 Vector__XXX
+ SG_ RTK_COG : 0|16@1+ (0.01,0) [0|360] "" Vector__XXX
+ SG_ RTK_COGm : 16|16@1+ (0.01,0) [0|360] "" Vector__XXX
+ SG_ RTK_Degree_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RTK_Degree_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1030 RTK_Speed: 8 Vector__XXX
+ SG_ RTK_SOG : 0|18@1+ (0.001,0) [0|255] "" Vector__XXX
+ SG_ RTK_KPH : 24|18@1+ (0.001,0) [0|255] "" Vector__XXX
+ SG_ RTK_Speed_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RTK_Speed_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1031 RTK_GPS_Time: 8 Vector__XXX
+ SG_ RTK_GPS_Time : 0|64@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1040 INS_UTC: 8 Vector__XXX
+ SG_ INS_UTC_Year : 0|7@1+ (1,0) [0|99] "" Vector__XXX
+ SG_ INS_UTC_Month : 7|4@1+ (1,0) [0|12] "" Vector__XXX
+ SG_ INS_UTC_Day : 11|5@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ INS_UTC_Hour : 16|5@1+ (1,0) [0|23] "" Vector__XXX
+ SG_ INS_UTC_Min : 21|6@1+ (1,0) [0|59] "" Vector__XXX
+ SG_ INS_UTC_Sec : 27|16@1+ (0.001,0) [0|60] "" Vector__XXX
+ SG_ INS_MODE : 43|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ INS_Mag_Err : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_IMU_Err : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_GNSS_Fix : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_GNSS_Err : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_CRC_Missing_CNT : 49|6@1+ (1,0) [0|63] "" Vector__XXX
+ SG_ INS_UTC_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_UTC_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1041 INS_Health: 8 Vector__XXX
+ SG_ INS_Temp : 0|15@1- (0.01,0) [-40|85] "" Vector__XXX
+ SG_ INS_Pres : 15|17@1+ (0.01,0) [0|1000] "" Vector__XXX
+ SG_ INS_Health_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Health_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1042 INS_GPS_Time: 8 Vector__XXX
+ SG_ INS_GPS_Time : 0|64@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1043 INS_Accel_X_N: 8 Vector__XXX
+ SG_ INS_AccelX : 0|21@1- (0.0001,0) [-100|100] "" Vector__XXX
+ SG_ INS_AccelN : 24|21@1- (0.0001,0) [-100|100] "" Vector__XXX
+ SG_ INS_Accel_X_N_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Accel_X_N_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1044 INS_Accel_Y_E: 8 Vector__XXX
+ SG_ INS_AccelY : 0|21@1- (0.0001,0) [-100|100] "" Vector__XXX
+ SG_ INS_AccelE : 24|21@1- (0.0001,0) [-100|100] "" Vector__XXX
+ SG_ INS_Accel_Y_E_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Accel_Y_E_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1045 INS_Accel_Z_D: 8 Vector__XXX
+ SG_ INS_AccelZ : 0|21@1- (0.0001,0) [-100|100] "" Vector__XXX
+ SG_ INS_AccelD : 24|21@1- (0.0001,0) [-100|100] "" Vector__XXX
+ SG_ INS_Accel_Z_D_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Accel_Z_D_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1046 INS_Yaw_GyroZ: 8 Vector__XXX
+ SG_ INS_Yaw : 0|19@1- (0.001,0) [-180|180] "" Vector__XXX
+ SG_ INS_GyroZ : 24|28@1- (1e-06,0) [-100|100] "" Vector__XXX
+ SG_ INS_Yaw_GyroZ_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Yaw_GyroZ_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1047 INS_Pitch_GyroY: 8 Vector__XXX
+ SG_ INS_Pitch : 0|18@1- (0.001,0) [-90|90] "" Vector__XXX
+ SG_ INS_GyroY : 24|28@1- (1e-06,0) [-100|100] "" Vector__XXX
+ SG_ INS_Pitch_GyroY_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Pitch_GyroY_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1048 INS_Roll_GyroX: 8 Vector__XXX
+ SG_ INS_Roll : 0|18@1- (0.001,0) [-90|90] "" Vector__XXX
+ SG_ INS_GyroX : 24|28@1- (1e-06,0) [-100|100] "" Vector__XXX
+ SG_ INS_Roll_GyroX_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Roll_GyroX_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1049 INS_Latitude: 8 Vector__XXX
+ SG_ INS_Lat_Int : 0|10@1+ (1,0) [0|999] "" Vector__XXX
+ SG_ INS_Lat_Dec : 16|27@1+ (1,0) [0|100000000] "" Vector__XXX
+ SG_ INS_Lat_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Lat_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1050 INS_Longitude: 8 Vector__XXX
+ SG_ INS_Long_Int : 0|10@1+ (1,0) [0|999] "" Vector__XXX
+ SG_ INS_Long_Dec : 16|27@1+ (1,0) [0|100000000] "" Vector__XXX
+ SG_ INS_Long_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Long_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1051 INS_Altitude: 8 Vector__XXX
+ SG_ INS_Alt_Int : 0|18@1- (1,0) [-100000|100000] "" Vector__XXX
+ SG_ INS_Alt_Dec : 24|10@1+ (1,0) [0|999] "" Vector__XXX
+ SG_ INS_Alt_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Alt_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1052 INS_VelXYZ: 8 Vector__XXX
+ SG_ INS_VelX : 0|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_VelY : 18|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_VelZ : 36|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_VelXYZ_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_VelXYZ_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1053 INS_VelNED: 8 Vector__XXX
+ SG_ INS_VelN : 0|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_VelE : 18|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_VelD : 36|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_VelNED_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_VelNED_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1054 INS_State: 8 Vector__XXX
+ SG_ INS_Percent_Complete : 0|7@1+ (1,0) [0|100] "" Vector__XXX
+ SG_ INS_Current_Heading : 8|20@1- (0.001,0) [-360|360] "" Vector__XXX
+ SG_ INS_Antenna_DB0 : 32|7@1+ (1,0) [0|100] "" Vector__XXX
+ SG_ INS_Antenna_DB1 : 40|7@1+ (1,0) [0|100] "" Vector__XXX
+ SG_ INS_State_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_State_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1056 INS_Config: 8 Vector__XXX
+ SG_ INS_RESET_CMD : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_INI_CMD : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_INI_Yaw : 16|19@1- (0.001,0) [-180|180] "" Vector__XXX
+ SG_ INS_Config_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Config_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1057 INS_AID_CMD: 8 Vector__XXX
+ SG_ INS_Vel_Comp_Mode : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_Vel_Turning : 8|4@1+ (0.1,0) [0|1] "" Vector__XXX
+ SG_ INS_Rate_Turing : 16|7@1+ (0.01,0) [0|1] "" Vector__XXX
+ SG_ INS_AID_CMD_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_AID_CMD_CNT : 56|8@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1058 INS_AID_DATA: 8 Vector__XXX
+ SG_ INS_AID_VelX : 0|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_AID_VelY : 18|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_AID_VelZ : 36|18@1- (0.001,0) [-100|100] "" Vector__XXX
+ SG_ INS_AID_DATA_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INS_AID_DATA_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+
+
+CM_ BO_ 1024 "GGA";
+CM_ BO_ 1025 "GGA";
+CM_ BO_ 1026 "GGA";
+CM_ BO_ 1027 "GGA";
+CM_ BO_ 1028 "HDT";
+CM_ BO_ 1029 "RMC or VTG";
+CM_ BO_ 1030 "RMC or VTG";
+CM_ BO_ 1031 "nmea UTC convert GPS_Time";
+CM_ BO_ 1054 "INS 상태정보 출력 비트(안테나Gain, Heading)";
+CM_ BO_ 1056 "INS설정용 명령비트 모음(차량제어PC -> 센서PC)";
+CM_ BO_ 1057 "INS설정용 명령비트 모음(차량제어PC -> 센서PC),VN100";
+CM_ BO_ 1058 "INS설정용 명령비트 모음(차량제어PC -> 센서PC),VN100";
+SIG_VALTYPE_ 1031 RTK_GPS_Time : 2;
+SIG_VALTYPE_ 1042 INS_GPS_Time : 2;
+

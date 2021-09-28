@@ -1,0 +1,201 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ LIDAR_2_STATE_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LIDAR_2_STATE_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Type_Info_Obj1 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Length_Obj1_X : 8|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Width_Obj1_Y : 16|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Height_Obj1_Z : 24|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Info_Obj1_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Info_Obj1_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Heading_Obj1 : 32|16@1+ (0.01,-180) [-180|180] "" Vector__XXX
+ SG_ LiDAR_Type_Info_Obj2 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Length_Obj2_X : 8|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Width_Obj2_Y : 16|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Height_Obj2_Z : 24|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Info_Obj2_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Info_Obj2_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Heading_Obj2 : 32|16@1+ (0.01,-180) [-180|180] "" Vector__XXX
+ SG_ LiDAR_Type_Info_Obj3 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Length_Obj3_X : 8|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Width_Obj3_Y : 16|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Height_Obj3_Z : 24|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Info_Obj3_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Info_Obj3_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Heading_Obj3 : 32|16@1+ (0.01,-180) [-180|180] "" Vector__XXX
+ SG_ LiDAR_Type_Info_Obj4 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Length_Obj4_X : 8|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Width_Obj4_Y : 16|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Height_Obj4_Z : 24|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Info_Obj4_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Info_Obj4_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Heading_Obj4 : 32|16@1+ (0.01,-180) [-180|180] "" Vector__XXX
+ SG_ LiDAR_Type_Info_Obj5 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Length_Obj5_X : 8|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Width_Obj5_Y : 16|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Height_Obj5_Z : 24|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Info_Obj5_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Info_Obj5_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Heading_Obj5 : 32|16@1+ (0.01,-180) [-180|180] "" Vector__XXX
+ SG_ LiDAR_Type_Info_Obj6 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Length_Obj6_X : 8|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Width_Obj6_Y : 16|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Height_Obj6_Z : 24|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Info_Obj6_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Info_Obj6_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Heading_Obj6 : 32|16@1+ (0.01,-180) [-180|180] "" Vector__XXX
+ SG_ LiDAR_Type_Info_Obj7 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Length_Obj7_X : 8|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Width_Obj7_Y : 16|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Height_Obj7_Z : 24|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Info_Obj7_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Info_Obj7_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Heading_Obj7 : 32|16@1+ (0.01,-180) [-180|180] "" Vector__XXX
+ SG_ LiDAR_Type_Info_Obj8 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Length_Obj8_X : 8|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Width_Obj8_Y : 16|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Height_Obj8_Z : 24|8@1+ (0.01,0) [0|25] "" Vector__XXX
+ SG_ LiDAR_Info_Obj8_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Info_Obj8_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Heading_Obj8 : 32|16@1+ (0.01,-180) [-180|180] "" Vector__XXX
+ SG_ LiDAR_Type_Center_Obj1 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Type_Center_Obj2 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Type_Center_Obj3 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Type_Center_Obj4 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Type_Center_Obj5 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Type_Center_Obj6 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Type_Center_Obj7 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+ SG_ LiDAR_Type_Center_Obj8 : 0|4@1+ (1,0) [0|16] "" Vector__XXX
+
+BO_ 768 LiDAR_1_STATE: 8 Vector__XXX
+ SG_ LIDAR_1_STATE_CTC : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_1_STATE_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 773 LiDAR_Obj1_Center: 8 Vector__XXX
+ SG_ LiDAR_Center_Obj1_X : 8|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj1_Y : 24|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj1_Dist : 40|16@1+ (0.01,0) [0|600] "" Vector__XXX
+ SG_ LiDAR_Center_Obj1_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Center_Obj1_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 775 LiDAR_Obj2_Center: 8 Vector__XXX
+ SG_ LiDAR_Center_Obj2_X : 8|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj2_Y : 24|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj2_Dist : 40|16@1+ (0.01,0) [0|600] "" Vector__XXX
+ SG_ LiDAR_Center_Obj2_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Center_Obj2_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 777 LiDAR_Obj3_Center: 8 Vector__XXX
+ SG_ LiDAR_Center_Obj3_X : 8|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj3_Y : 24|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj3_Dist : 40|16@1+ (0.01,0) [0|600] "" Vector__XXX
+ SG_ LiDAR_Center_Obj3_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Center_Obj3_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 779 LiDAR_Obj4_Center: 8 Vector__XXX
+ SG_ LiDAR_Center_Obj4_X : 8|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj4_Y : 24|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj4_Dist : 40|16@1+ (0.01,0) [0|600] "" Vector__XXX
+ SG_ LiDAR_Center_Obj4_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Center_Obj4_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 781 LiDAR_Obj5_Center: 8 Vector__XXX
+ SG_ LiDAR_Center_Obj5_X : 8|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj5_Y : 24|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj5_Dist : 40|16@1+ (0.01,0) [0|600] "" Vector__XXX
+ SG_ LiDAR_Center_Obj5_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Center_Obj5_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 784 LiDAR_Obj6_Center: 8 Vector__XXX
+ SG_ LiDAR_Center_Obj6_X : 8|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj6_Y : 24|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj6_Dist : 40|16@1+ (0.01,0) [0|600] "" Vector__XXX
+ SG_ LiDAR_Center_Obj6_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Center_Obj6_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 786 LiDAR_Obj7_Center: 8 Vector__XXX
+ SG_ LiDAR_Center_Obj7_X : 8|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj7_Y : 24|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj7_Dist : 40|16@1+ (0.01,0) [0|600] "" Vector__XXX
+ SG_ LiDAR_Center_Obj7_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Center_Obj7_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 788 LiDAR_Obj8_Center: 8 Vector__XXX
+ SG_ LiDAR_Center_Obj8_X : 8|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj8_Y : 24|16@1+ (0.01,-327.68) [-300|300] "" Vector__XXX
+ SG_ LiDAR_Center_Obj8_Dist : 40|16@1+ (0.01,0) [0|600] "" Vector__XXX
+ SG_ LiDAR_Center_Obj8_CTC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Center_Obj8_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 806 LiDAR_Radar_format: 8 Vector__XXX
+ SG_ Lidar_ObjRelSpd : 28|12@1+ (0.1,-170) [-170|239.5] "obj speed" Vector__XXX
+ SG_ Lidar_ObjDist : 17|11@1+ (0.01,0) [0|204.7] "Long meter" Vector__XXX
+ SG_ Lidar_ObjLatPos : 8|9@1+ (0.1,-20) [-20|31.1] "Lateral meter" Vector__XXX
+ SG_ Lidar_ObjStatus : 0|2@1+ (1,0) [0|3] "Lidar detect obj type" Vector__XXX
+ SG_ Lidar_Radar_CTC : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Lidar_Radar_CNT : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Num_of_Obj : 2|6@1+ (1,0) [0|64] "" Vector__XXX
+
+BO_ 808 LiDAR_Config_1: 8 Vector__XXX
+ SG_ DownSample_Voxel_Size : 0|10@1+ (0.01,0) [0|9.99] "" Vector__XXX
+ SG_ SOR_Filter_Point_Neighborhood : 24|7@1+ (1,0) [0|99] "" Vector__XXX
+ SG_ SOR_Filter_Std_Ratio : 31|17@1+ (0.0001,0) [0|9.9999] "" Vector__XXX
+ SG_ Ransac_Th : 10|10@1+ (0.01,0) [0|9.99] "" Vector__XXX
+ SG_ Ransac_Num_Point : 48|7@1+ (1,0) [0|99] "" Vector__XXX
+ SG_ LiDAR_Config_CTC_1 : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Config_CNT_1 : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Config_CMD_1 : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 809 LiDAR_Config_2: 8 Vector__XXX
+ SG_ Ransac_Iteration_num : 0|10@1+ (1,0) [0|999] "" Vector__XXX
+ SG_ DBSCAN_Epsilon : 10|14@1+ (0.01,0) [0|99.99] "" Vector__XXX
+ SG_ DBSCAN_Min_Point_Num : 24|7@1+ (1,0) [0|99] "" Vector__XXX
+ SG_ LiDAR_Azimuth_1 : 31|9@1+ (1,0) [0|360] "" Vector__XXX
+ SG_ LiDAR_Azimuth_2 : 40|9@1+ (1,0) [0|360] "" Vector__XXX
+ SG_ LiDAR_Azimuth_index : 49|3@1+ (1,0) [0|8] "" Vector__XXX
+ SG_ LiDAR_Config_CNT_2 : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ LiDAR_Config_CTC_2 : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Config_CMD_2 : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LiDAR_Config_Azimuth_CMD : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+
+CM_ SG_ 806 Lidar_ObjStatus "0:None, 1:Car 2: Ped, 3:Bike";
+
